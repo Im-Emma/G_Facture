@@ -1,0 +1,245 @@
+
+.primary-button.main{
+
+    display: flexbox;
+}
+
+#frm1{
+    margin-left: 300px;
+}
+#title{
+    margin-left: 300px;
+    color: #7868E6;
+}
+.MyDG{
+    user-select: none;
+    width: 100%;
+}
+.MyDG tr td, .MyDG tr th{
+    user-select: none;
+    border-bottom:1px solid #B8B5FF ;
+    padding: 5px 0;
+    text-align: left;
+}
+.MyDG th{   
+    font-weight: bold;
+    user-select: none;
+    text-align: center;
+    color: whitesmoke;
+}
+.MyDG img{
+    user-select: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+tbody tr:nth-child(2n+1) {
+    user-select: none;
+    background-color: #B8B5FF;
+}
+.tableDyalna .MyDG{
+    
+    font-weight: bold;
+    background-color:#b1b7e6;
+    padding: 3px;
+}
+.tableDyalna{
+    font-weight: bold;
+    background-color:#B8B5FF;
+    padding: 1px;
+}
+.fa-edit{
+    user-select: none;
+    color:#7868E6;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.fa-trash-alt{
+    user-select: none;
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.primary-button #btnNew{
+    user-select: none;
+    border: none !important;
+    color: #7868E6;
+    background-color: transparent !important;
+}
+.primary-button #btnNew:hover{
+    color: #d09eff;
+}
+.inputChercher{
+border: 1px solid #7868E6;
+width:200px;
+height: 35px;
+}
+
+.componentFRMC{
+user-select: none;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin: 5px;
+}
+.componentFRMC *{
+user-select: none;
+margin: 2px 7px;
+}
+.componentFRMC input[type='text'], .componentFRMC select,.componentFRMC input[type='date']{
+user-select: none;
+border: 1px solid #7868E6;
+display: block;
+width: 800px;
+height: 35px;
+} 
+.componentFRMC input[type='number']{
+    user-select: none;
+    border: 1px solid #7868E6;
+    display: block;
+    width: 800px;
+    height: 35px;
+    } 
+    
+.componentFRMC label, .componentFRMC legend{
+user-select: none;
+color : #7868E6;
+font-weight: bold;
+}
+.componentFRMC input[type='submit'], .componentFRMC input[type='Reset']{
+user-select: none;
+background-color : #535ba0;
+font-weight: bold;
+color:rgba(255, 255, 255, 0.877);
+border-radius: 5px;
+width: 100%;
+}
+
+.componentFRMC input[type='Reset']{
+user-select: none;
+background-color : #535ba0;
+}
+
+.componentFRMC select option{
+user-select: none;
+box-shadow: 0 0 10px 100px #1882A8 inset;
+display: inline-block;
+padding-bottom: 7px;
+border-bottom: 1px solid #535ba0;
+background-color:  rgba(170, 218, 180, 0.801);
+
+}
+
+.div_button{
+user-select: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 10px;
+}
+.div_button #btnAdd{
+user-select: none;
+margin-left: 25px;
+
+}
+.div_button #btnVider{
+user-select: none;
+margin-left: 25px;
+}
+
+.div_button #btnDetail{
+user-select: none;
+margin-left: 25px;
+}
+.btnchercher{
+user-select: none;
+cursor: pointer;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+background-color: transparent;
+display: inline-block;
+padding: 8px 20px;
+color: #7868E6;
+border: 2px solid #7868E6;
+transition: all 0.5s;
+width: 120x;
+}
+
+.btnchercher:hover{
+user-select: none;
+color: #fff;
+background-color: #b1b7e6;
+}
+
+.main-componentFRMC{
+user-select: none;
+display: flex;
+flex-direction: row;
+margin-left: 0px;
+}
+.main-frm{
+margin: 0;
+padding: 0;
+user-select: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.fa-edit , .fa-clipboard{
+color:#7868E6;
+}
+
+.fa-trash-alt:hover{
+color: rgb(228, 154, 164);
+}
+.fa-edit:hover , .fa-clipboard:hover{
+color: #8C91BF;
+}
+
+.inputChercher{   
+    
+    user-select: none;
+    width: 20%; 
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 8px 20px;
+    color: #7868E6;
+    border: 2px solid #7868E6;
+    transition: all 0.5s;
+}
+.inputChercher::placeholder {
+    user-select: none;
+    color: #7868E6;
+    font-size: 12px;
+    font-weight: 200;
+}
+.inputChercher:focus {
+    background-color: #d0d3ec;
+}
+.btnchercher1{
+user-select: none;
+cursor: pointer;
+border-radius: 5px;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+background-color: transparent;
+display: inline-block;
+padding: 8px 20px;
+color: #7868E6;
+border: 2px solid #7868E6;
+transition: all 0.5s;
+}
+.btnchercher1:hover{
+user-select: none;
+color: #fff;
+background-color: #B8B5FF;
+}

@@ -1,0 +1,145 @@
+*{
+    user-select: none;
+}
+.inputChercher{   
+    user-select: none;
+    width: 20%; 
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 8px 20px;
+    color: #7868E6;
+    border: 2px solid #7868E6;
+    transition: all 0.5s;
+}
+.inputChercher::placeholder {
+    user-select: none;
+    color: #7868E6;
+    font-size: 12px;
+    font-weight: 200;
+}
+.inputChercher:focus {
+    background-color: #d0d3ec;
+}
+.btnchercher1{
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #7868E6;
+    border: 2px solid #7868E6;
+    transition: all 0.5s;
+    }
+.btnchercher1:hover{
+    user-select: none;
+    color: #fff;
+    background-color: #B8B5FF;
+}
+.btnNew{
+    user-select: none;
+    border: none !important;
+    color: transparent !important;
+    background-color: transparent !important;
+}
+    
+.btnNew:hover{
+    border: none !important;
+    color: transparent !important;
+    background-color: transparent !important;
+}
+.primary-button .fa-plus-square{
+    user-select: none;
+    font-size: 34px;
+    display: inline-block;
+    color: #7868E6;
+    transition: all 0.5s;
+}
+.primary-button .fa-plus-square:hover{
+    user-select: none;
+    color: #b1b7e6;
+}
+.titlepg{
+    user-select: none;
+    margin-bottom:80px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+.titlepg h1{
+    user-select: none;
+    margin: 106px;
+    padding: 5px;
+    font-size: 32px;
+    color: #fff;
+    background-color: #7868E6;
+    border-radius: 5px;
+}
+    /*Start GridView*/
+.MyDG{
+    user-select: none;
+    width: 100%;
+}
+.MyDG tr td, .MyDG tr th{
+    user-select: none;
+    border-bottom:1px solid #B8B5FF ;
+    padding: 5px 0;
+    text-align: left;
+}
+.MyDG th{
+    font-weight: bold;
+    user-select: none;
+    text-align: center;
+}
+.MyDG img{
+    user-select: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.fa-edit{
+    user-select: none;
+    color:#7868E6;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.fa-edit:hover{
+    color:#8C91BF;
+}
+.fa-trash-alt{
+    user-select: none;
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fa-trash-alt:hover{
+    user-select: none;
+    color:#F69789;
+    }
+    
+tbody tr:nth-child(2n+1) {
+    user-select: none;
+    background-color: #B8B5FF;
+}
+.tableDyalna .MyDG{
+    
+    font-weight: bold;
+    background-color:#B8B5FF;
+    padding: 3px;
+}
+/*End GridView*/
+    
+    
+    
+    
+    
+           
+    
+    
